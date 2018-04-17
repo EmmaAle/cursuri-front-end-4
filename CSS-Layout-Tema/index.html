@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Layout</title>
+</head>
+<body>
+  <nav>
+    <div class="margin-auto navbar">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">CONTACT</a>
+    <a href="#">SERVICES</a>
+    <a href="#">BLABLACAR</a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="brand clearfix margin-auto">
+      <div class="pull-left" >LOGO</div>
+      <div class="pull-right">CONTACT</div>
+    </div>
+
+    <div class="slider margin-auto">
+      <div>TEXT</div>
+       <img src="box-image pos-absolute">
+      <div class="slider-btn">BUTTON</div>
+    </div>
+  </header>
+
+  <main class="margin-auto clearfix">
+    <section class="boxes">
+      <article class="box-1 pos-relative">
+        <h2>Article 1</h2>
+        <img src="box-image">
+        <p>Some text</p>
+        <a href="">Read More</a>
+      </article>
+      <article class="box-2 pos-relative">
+       <h2>Article 2</h2>
+        <img src="box-image">
+        <p>More text</p>
+        <a href="">Read More</a>
+      </article>
+      <article class="box-3 pos-relative">
+        <h2>Article 3</h2>
+        <img src="box-image">
+        <p>More text</p>
+        <a href="">Read More</a>
+      </article>
+    </section>
+    <section>
+      <article class="box-model pos-relative">
+        <h2 style="text-align: center">Article 4</h2>
+        <img src="box-image" style="float: left" margin: "0px 15px 15px 0px" width="100">
+        <p>More text</p>
+        <a href="">Read more</a>
+      </article>
+      <aside class="box-model1 pos-relative">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="">Cat 1</a></li>
+          <li><a href="">Cat 1</a></li>
+          <li><a href="">Cat 1</a></li>
+          <li><a href="">Cat 1</a></li>
+          <li><a href="">Cat 1</a></li>
+        </ul>
+      </aside>
+    </section>
+    <section class="images">
+        <img src="box-image1">
+        <img src="box-image2">
+        <img src="box-image3">
+        <img src="box-image4">
+        <img src="box-image5">
+    </section>
+  </main>
+  <footer class="pos-relative">
+    <div class="footer clearfix margin-auto">
+      <div class="pull-left">Copyright</div>
+      <div class="pull-right">Template</div>
+    </div>
+  </footer>
+</body>
+</html>

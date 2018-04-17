@@ -1,0 +1,12 @@
+
+ul{
+  list-style-type: none;
+  font-family: Comic Sans MS;
+}
+
+ul li{
+  display: inline;
+  padding: 10px;
+  
+}
+   
