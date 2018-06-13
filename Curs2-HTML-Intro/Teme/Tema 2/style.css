@@ -1,12 +1,48 @@
-
-ul{
-  list-style-type: none;
-  font-family: Comic Sans MS;
+header{
+  font-size: medium;
+  padding: 30px;
+  font-family: sans-serif;
+  float: center;
 }
+ .blog-roll{
+   text-align: center;
+   border: 5px solid purple; 
+ }
+ .navbar ul{
+   padding: 50px;
+ }
 
-ul li{
-  display: inline;
-  padding: 10px;
-  
-}
+ header h1{
+   text-align: center;
+   font-style: italic;
+   color: rgba(121, 84, 180, 0.459);
+ }
+
+ body{
+   background-color: aquamarine
+ }
+
+ ul li{
+   font-family: Lucida Sans;
+   color: maroon;
+ }
+ .navbar{
+   border: 3px solid brown;
    
+ }
+
+ div img{
+   position: relative;
+   float: right;
+   padding: 150px;
+ }
+
+footer{
+  font-size: medium;
+  text-align: left;
+  background-color: coral;
+}
+footer  div{
+  text-align: center;
+}
+ 
