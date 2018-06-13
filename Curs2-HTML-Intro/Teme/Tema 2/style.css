@@ -28,6 +28,7 @@ header{
  ul li{
    font-family: Lucida Sans;
    color: maroon;
+   
  }
  .navbar{
    border: 3px solid brown; 
@@ -53,8 +54,12 @@ header h2{
 }
 main span{
   float: left;
-  padding-left: 500px;
+  padding-left: 400px;
   padding-top: 20px;
+  font-size: 30px;
+  font-style: oblique;
+  font-family: Comic Sans Ms;
+  color: orange;
 }
 header span{
   float: right;
@@ -63,4 +68,42 @@ header span{
 }
 .blog-roll h4{
   padding-left: 80px;
+  font-family: Comic Sans Ms;
+  font-size: 20px;
+  color: orange;
+}
+.banner-image{
+  width: 100%;
+  display: block;
+}
+
+.margin-auto{
+  width: 960px;
+  margin: 0 auto;
+
+}
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#badge{
+ width: 400px;
+ padding-top: 30px;
+ padding-right: 50px;
+}
+#aboutme{
+  font-family: Comic Sans Ms;
+  font-size: 20px;
+  color: orange;
+}
+#frontend{
+  font-family: Comic Sans Ms;
+  font-size: 20px;
+  color: orange;
+}
+#hobbies{
+  font-family: Comic Sans Ms;
+  font-size: 20px;
+  color: orange;
 }
