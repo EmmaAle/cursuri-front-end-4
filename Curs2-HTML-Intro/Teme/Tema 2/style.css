@@ -1,12 +1,15 @@
 header{
   font-size: medium;
-  padding: 30px;
+  padding: 80px;
   font-family: sans-serif;
   float: center;
+  margin-top: -45px
 }
  .blog-roll{
    text-align: center;
    border: 5px solid purple; 
+   margin-top: 10px;
+   margin-bottom: 10px;
  }
  .navbar ul{
    padding: 50px;
@@ -27,14 +30,13 @@ header{
    color: maroon;
  }
  .navbar{
-   border: 3px solid brown;
-   
+   border: 3px solid brown; 
  }
-
+ 
  div img{
-   position: relative;
    float: right;
-   padding: 150px;
+   padding-top: 170px;
+   padding-left: 50px
  }
 
 footer{
@@ -42,7 +44,23 @@ footer{
   text-align: left;
   background-color: coral;
 }
-footer  div{
+footer div{
   text-align: center;
 }
- 
+header h2{
+  float: right;
+  
+}
+main span{
+  float: left;
+  padding-left: 500px;
+  padding-top: 20px;
+}
+header span{
+  float: right;
+  padding-right: 180px;
+  
+}
+.blog-roll h4{
+  padding-left: 80px;
+}
