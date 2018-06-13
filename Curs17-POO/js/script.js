@@ -105,7 +105,7 @@ User.prototype.calculateBMI = function(){
   return bmi;
 };
 
-for(var i = 0; 1< userData.lenght; i++){
+for(var i = 0; i< userData.length; i++){
   var currentUser = userData[i];
   // dupa "new" vine numele clasei cu ajutorul careia vrei sa creezi obiectul, in cazul tau clasa "User"
   var u = new User()
