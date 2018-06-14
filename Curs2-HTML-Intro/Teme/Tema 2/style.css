@@ -1,13 +1,13 @@
 header{
   font-size: medium;
   padding: 80px;
-  font-family: sans-serif;
   float: center;
   margin-top: -45px
 }
  .blog-roll{
    text-align: center;
    border: 5px solid purple; 
+   border-style: ridge;
    margin-top: 10px;
    margin-bottom: 10px;
  }
@@ -22,11 +22,13 @@ header{
  }
 
  body{
-   background-color: aquamarine
+   background-image: url(img/Background2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
  }
 
  ul li{
-   font-family: Lucida Sans;
+   font-family: Impact;
    color: maroon;
    
  }
@@ -38,6 +40,7 @@ header{
    float: right;
    padding-top: 170px;
    padding-left: 50px
+   
  }
 
 footer{
@@ -57,9 +60,10 @@ main span{
   padding-left: 400px;
   padding-top: 20px;
   font-size: 30px;
-  font-style: oblique;
+  font-style: oblique strong;
   font-family: Comic Sans Ms;
-  color: orange;
+  color:purple;
+  
 }
 header span{
   float: right;
