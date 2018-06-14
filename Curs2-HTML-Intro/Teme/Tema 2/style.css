@@ -28,8 +28,9 @@ header{
  }
 
  ul li{
-   font-family: Impact;
+   font-family: cursive;
    color: maroon;
+   
    
  }
  .navbar{
@@ -68,8 +69,8 @@ main span{
 header span{
   float: right;
   padding-right: 180px;
-  
 }
+
 .blog-roll h4{
   padding-left: 80px;
   font-family: Comic Sans Ms;
@@ -93,21 +94,38 @@ header span{
 }
 #badge{
  width: 400px;
- padding-top: 30px;
+ padding-top: 180px;
  padding-right: 50px;
 }
 #aboutme{
   font-family: Comic Sans Ms;
-  font-size: 20px;
-  color: orange;
+  font-size: 30px;
+  color: #000080;
 }
 #frontend{
   font-family: Comic Sans Ms;
-  font-size: 20px;
-  color: orange;
+  font-size: 30px;
+  color: #4B0082;
 }
 #hobbies{
   font-family: Comic Sans Ms;
-  font-size: 20px;
-  color: orange;
+  font-size: 30px;
+  color:#FF4500;
 }
+.content{
+  border: 1px solid rgb(61, 21, 88);
+  border-style: groove;
+  background-color: bisque;
+}
+.content2 ol {
+  border: 1px solid #4169E1;
+  background-color: antiquewhite;
+  margin-bottom: 3px;
+  width: 400px;
+  font-family: cursive;
+  text-decoration-color: #FF4500;
+}
+.content2 a{
+  color: #FF4500;
+}
+
