@@ -31,19 +31,7 @@ header{
    color: maroon; 
    padding: 50px;
  }
-
-footer{
-  font-size: medium;
-  text-align: left;
-  background-color: coral;
-}
-footer div{
-  text-align: center;
-}
-header h2{
-  float: right;
   
-}
 main span{
   float: left;
   padding-left: 400px;
@@ -95,6 +83,8 @@ header span{
   text-decoration: underline;
   padding-right: 200px;
 }
+
+
 .content ol {
   border: 1px solid #4169E1;
   background-color: antiquewhite;
@@ -114,6 +104,8 @@ footer{
   font-family: cursive;
   color: #6A5ACD;
   border: 1px solid black;
+  text-align: center;
+  background-color: coral;
 }
 #img2{
  width: 300px;
