@@ -11,9 +11,6 @@ header{
    border: 1px solid rgb(61, 21, 88);
    border-style: groove;
    text-align: left;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #ff0000;
-   
  }
 
  header h1{
@@ -122,4 +119,3 @@ footer{
   margin-bottom: 20px
 }
 
-  
