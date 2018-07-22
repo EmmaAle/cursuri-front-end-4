@@ -11,7 +11,7 @@ header{
    border-style: groove;
    text-align: left;
    border-radius: 6px;
-   box-shadow: 10px 15px;
+   box-shadow: 8px 10px;
 
  }
 
@@ -22,7 +22,7 @@ header{
    border: 1px solid hotpink;
    background: url(img/Badge.jpg);
    font-weight: 900;
-   text-shadow: 2px 2px 3px;
+   text-shadow: 2px 2px 6px;
  }
 
  body{
