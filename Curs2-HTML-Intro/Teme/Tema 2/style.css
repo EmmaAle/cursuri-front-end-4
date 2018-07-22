@@ -18,9 +18,11 @@ header{
  header h1{
    text-align: center;
    font-style: italic;
-   color: rgba(121, 84, 180, 0.459);
+   color: darkgreen;
    border: 1px solid hotpink;
    background: url(img/Badge.jpg);
+   font-weight: 900;
+   text-shadow: 2px 2px 3px;
  }
 
  body{
@@ -43,7 +45,7 @@ main span{
   font-size: 30px;
   font-style: oblique strong;
   font-family: Comic Sans Ms;
-  color:purple;
+  color: #DC143C;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-shadow: 2px 2px 3px;
@@ -118,6 +120,7 @@ footer{
   text-align: center;
   background: url(img/Badge.jpg);
   height: 35px;
+  padding-top: 5px;
 }
 #img2{
  width: 300px;
@@ -135,9 +138,12 @@ footer{
 }
 .pull-left{
   float: left;
-  padding-bottom: 10px;
 }
 .pull-right{
   float: right;
 }
-
+footer a{
+  color: #DC143C;
+  text-shadow: 2px 2px 3px;
+  font-weight: 900;
+}
