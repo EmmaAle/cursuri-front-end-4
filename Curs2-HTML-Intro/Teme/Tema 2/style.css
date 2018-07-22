@@ -45,6 +45,7 @@ main span{
   font-family: Comic Sans Ms;
   color:purple;
   text-decoration: underline;
+  text-decoration-style: wavy;
   
 }
 header span{
@@ -58,6 +59,7 @@ header span{
   font-size: 25px;
   color: #DC143C;
   text-decoration: underline;
+  text-decoration-style: wavy;
 }
 .banner-image{
   width: 100%;
@@ -85,6 +87,7 @@ header span{
   font-size: 30px;
   color: #000080;
   text-decoration: underline;
+  text-decoration-style: wavy;
   padding-right: 200px;
 }
 
