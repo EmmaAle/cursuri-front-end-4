@@ -147,3 +147,6 @@ footer a{
   text-shadow: 2px 2px 3px;
   font-weight: 900;
 }
+ul .pagination li{
+  display: inline;
+}
