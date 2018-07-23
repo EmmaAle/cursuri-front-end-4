@@ -155,6 +155,7 @@ footer a{
 
   #pagination ol{
    display: inline;
+   padding-left: 20px;
  }
   #pagination ol a{
   float: left;
@@ -162,5 +163,5 @@ footer a{
   text-decoration: none;
   transition: all 0,3s;
   border: 1px solid yellow;
-}
+  }
 #pagination a:hover:not(.active) {background-color: #ddd;}
