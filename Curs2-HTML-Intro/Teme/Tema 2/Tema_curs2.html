@@ -6,7 +6,8 @@
    <head>
        <title>My web page</title>
        <link rel="stylesheet" type="text/css" href="style.css"> 
-     <head/>
+       <link rel="text/javascript" href="script.js">
+   <head/>
    <body>
        <header>
           <h1>My blog</h1>
@@ -78,13 +79,12 @@
                <div class="pull-left"><a href="https://www.facebook.com/emma.alexandra.ale">Facebk Account</a></div>
                <div class="pull-right"><a href="https://www.youtube.com/channel/UCin7hSHixVCOTQ9eGrz2B4g?view_as=subscriber">Youtube Account</a></div>
            </div>
-           <ul class="pagination">
-               <li><a href="#">&laquo;</a></li>
-               <li><a href="#" class="active">1</a></li>
-               <li><a href="#" id="second">2</a></li>
-               <li><a href="#" id="third">3</a></li>
-               <li><a hre="#">&raquo;</a></li>
-
+           <ul class="d-flex justify-content-center" id="pagination" >
+               <ol><a href="#">&laquo;</a></ol>
+               <ol><a href="#" id="first" class="active">1</a></ol>
+               <ol><a href="#" id="second">2</a></ol>
+               <ol><a href="#" id="third">3</a></ol>
+               <ol><a hre="#">&raquo;</a></ol>
            </ul>
         </footer>
    </body>

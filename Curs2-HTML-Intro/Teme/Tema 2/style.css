@@ -147,6 +147,20 @@ footer a{
   text-shadow: 2px 2px 3px;
   font-weight: 900;
 }
-ul .pagination li{
-  display: inline;
+  #pagination{
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
 }
+
+  #pagination ol{
+   display: inline;
+ }
+  #pagination ol a{
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all 0,3s;
+  border: 1px solid yellow;
+}
+#pagination a:hover:not(.active) {background-color: #ddd;}
